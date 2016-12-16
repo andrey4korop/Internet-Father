@@ -1,0 +1,15 @@
+﻿<Window x:Class="Ninja_Safe_Internet.ReadPass"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ninja_Safe_Internet"
+        mc:Ignorable="d"
+        Title="Інтернет Батько" Height="230" Width="300" ResizeMode="NoResize" Icon="Images/icon.ico" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="buttonOK" Content="OK" HorizontalAlignment="Left" Height="30" Margin="95,130,0,0" VerticalAlignment="Top" Width="100" Click="buttonOK_Click"/>
+        <Label x:Name="label" Content="Введіть пароль для розблокування" Height="30" Margin="45,25,42,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="passRead" HorizontalAlignment="Left" Height="25" Margin="55,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" TextAlignment="Center" FontSize="14"/>
+
+    </Grid>
+</Window>
